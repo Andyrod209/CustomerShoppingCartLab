@@ -1,3 +1,5 @@
-from CustomerShoppingCartLab import Products
+from product import Products
 
-product = products('milk')
+product = Products('milk') 
+product.price()
+product.category()
